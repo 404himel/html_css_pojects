@@ -1,0 +1,264 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar {
+    height: 60px;
+    background-color: black;
+    color: #fff;
+    display: flex;
+    align-items: center;
+}
+
+.nav-logo {
+    height: 50px;
+    width: 100px;
+}
+
+.logo {
+    background-image: url("amazon_logo.png");
+    height: 50px;
+    width: 100%;
+     background-size: contain; 
+    background-repeat: no-repeat; 
+    background-position: center;  
+}
+.logo:hover{
+    border: #fff solid;
+}
+
+.de{
+    color: #ccc;
+    font-size: medium;
+    margin-left: 15px;
+}
+.bd{
+    color: #fff;
+    font-size: 15px;
+    margin-left: 4px;
+    
+}
+.add-icon{
+    display: flex;
+}
+.nav-address{
+    padding: 5px;
+    /* border: #fff solid; */
+}
+.nav-address:hover{
+    margin: 0px;
+    border: #fff solid
+    
+
+}
+.search{
+    margin-left: 10px;
+    display: flex;
+    background-color:black;
+    width: 800px;
+    height: 40px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    margin-left: 20px;
+}
+.search-icon{
+    color: #fff;
+    background-color: rgb(89, 88, 88);
+    padding: 10px;
+    border: none;
+    
+}
+.in{
+    width: 100%;
+    font-size: 17px;
+    
+}
+.select{
+    border-radius: 5px;
+    width: 50px;
+    text-align: center;
+
+}
+
+.language{
+    display: flex;
+    margin-left: 15px;
+   
+    
+}
+.flag{
+    padding: 0px;
+    margin-right: 10px;
+    background-color: transparent;
+   
+}
+.lan{
+    background-color: transparent;
+    color: #fff;
+    padding: 3px;
+    
+    margin: 10px
+    
+    
+}
+.language:hover{
+    border: #fff solid;
+    
+}
+.account{
+    padding-left: 10px;
+    padding: 8px;
+}
+.hello-1st{
+    font-size: 11px;
+    color: #fff;
+    font-weight: 500;
+}
+.acc-2nd{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+
+     
+}
+.account:hover{
+    border: #fff solid;
+}
+.search:hover{
+    border: 2px solid orange;
+}
+.order{
+    margin-left: 10px;
+    padding: 8px;
+}
+.order:hover{
+    border: #fff solid;
+}
+.cart{
+    margin-left: 10px;
+    padding: 6px;
+}
+.cart-1{
+    font-weight: 700;
+}
+.cart i{
+    font-size: 25px;
+}
+.cart-1{
+    font-size: medium;
+}
+.cart:hover{
+    border: #fff solid;
+}
+
+.all{
+    display: flex;
+    margin-left: 20px;
+    align-items: center;
+}
+
+.panel{
+    height: 40px;
+    background-color: #222f3d;
+    display: flex;
+    color: #fff;
+    align-items: center;
+}
+.bar p{
+    display: inline;
+}
+
+.bar p{
+    margin-left: 10px;
+    font-size: 14px;
+    
+}
+.shop{
+    margin-left: 830px;
+    font-weight: bold;
+}
+.shop:hover{
+    border: #fff solid;
+}
+.hero{
+    background-image: url("hero.jpg");
+    height: 400px;
+    background-size: cover;
+}
+.content{
+    display: flex;
+    justify-content:space-evenly ;
+    background-color: #e5da05;
+}
+.box{
+    border: #000000 solid;
+    margin-top: 10px;
+    height: 420px;
+    width: 24%;
+    background-color: #eee8e8;
+}
+
+.box1-img{
+    height: 350px;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.box2-img{
+    height: 350px;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.box3-img{
+    height: 350px;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.box4-img{
+    height: 350px;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.content2{
+    display: flex;
+    justify-content:space-evenly ;
+    background-color: #e5da05;
+}
+.box0{
+    border: #000000 solid;
+    margin-top: 10px;
+    height: 420px;
+    width: 24%;
+    background-color: #eee8e8;
+}
+
+.box5-img{
+    height: 350px;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.box6-img{
+    height: 350px;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.box7-img{
+    height: 350px;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.box8-img{
+    height: 350px;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
