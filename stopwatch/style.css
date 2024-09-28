@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #fff;
+}
+
+body{
+    background-color: rgb(152, 170, 170);
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    flex-direction: column;
+
+}
+.stopwatch{
+    background-color: rgb(144, 128, 128);
+    padding: 20px 30px;
+    font-size: large;
+    border-radius: 10px;
+    font-weight: 600;
+    font-size: 30px;
+}
+.button{
+    margin: 10px;
+   
+}
+.bt{
+    background-color: blueviolet;
+    color: black;
+    padding: 8px;
+    font-size: 20px;
+    border-radius: 10px;;
+}
